@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>final website interactive</title>
-</head>
-<body>
-    
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,15 +7,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href= "style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
   <title>OT CS Capstone</title>
 </head>
 <body>
   <!--Navbar-->
   <div data-include="nav"></div>
   <!--Whole page container div-->
-  <div class="container">
+  <div class="interactive">
+<h3>here is the form you can fill out if you want to tell your story and find links to help you</h3>
+  <form action="">
+    <label for="firstnametag">first name:</label>
+   <input id="firstnametag" type="first name" name="first name" placeholder="first name">
+   <label for="lastnametag">last name:</label>
+   <input id="lastnametag" type="last name" name="last name" placeholder="last name">   
+   <label for="emailtag">email:</label>
+   <input id="emailtag" type="email" name="email" placeholder="email">
+   <label for="passtag">password:</label>
+   <input id="passtag" type="passowrd" name="password" placeholder="">
 
+   <br>
+   <p>here are a list of symptoms that you can check if they apply to you</p>
+   <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+    <label class="form-check-label" for="inlineCheckbox1">panic attacks</label>
+  </div>
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+    <label class="form-check-label" for="inlineCheckbox2">feeling alone</label>
+  </div>
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+    <label class="form-check-label" for="inlineCheckbox3">lack of sleep</label>
+  </div>
+    <br>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+      <label class="form-check-label" for="inlineCheckbox4">hard to eat</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+        <label class="form-check-label" for="inlineCheckbox5">feeling overwhelmed/helpless</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6">
+      <label class="form-check-label" for="inlineCheckbox6">unable to focus</label>
+  </div>
+   <!--<br>
+   <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option7">
+    <label class="form-check-label" for="inlineCheckbox7">unable to focus</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox8" value="option8">
+      <label class="form-check-label" for="inlineCheckbox8">random outbursts</label>
+  </div>
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="inlineCheckbox9" value="option9">
+    <label class="form-check-label" for="inlineCheckbox9">not caring about anything</label>
+</div> -->
+   <br>
+    <p>tell your story here if you want</p>
+ <textarea name="name" cols="80" rows="8"></textarea>
+<input type="submit" name="" value="submit">
 
+</form>
 
   </div>
   <!--Bootstrap and other JS scripts-->
