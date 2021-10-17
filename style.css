@@ -5,10 +5,12 @@
 
 .interactive{
     font-family: 'Lora', serif;
+    background-color: lavenderblush;
 }
 
 .results{
     font-family: 'Lora', serif;
+    background-color:lightgrey;
 }
 
 .aboutme{
